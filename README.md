@@ -3,7 +3,7 @@
 This project provides weather metrics for a specific city
 
 ## Features 
-- It exposes "/data/{cityName}" endpoint retrives weather data for next three days
+- It exposes "/data/{cityName}" endpoint to retrive weather data for next three days
 - Weather data metrics :
  	- Average temperature (in Celsius) of the next 3 days from todays date for Daytime (06:00 – 18:00) and Night time (18:00 – 06:00).
  	- Average of pressure for the next 3 days from todays date.
@@ -27,7 +27,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### How to test?
 
-- Hit http endpoint using any tool such as postman or curl 
+- Hit the following endpoint using any tool such as postman or curl 
 	- URL : http://localhost:8080/data/mumbai 
 	- Method : GET
 
